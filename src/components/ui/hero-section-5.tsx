@@ -107,10 +107,7 @@ export function HeroSection() {
                                 </p>
                             </div>
                             <div className="relative py-6 md:w-[calc(100%-14rem)] overflow-hidden">
-                                <InfiniteSlider
-                                    speedOnHover={20}
-                                    speed={40}
-                                    gap={112}>
+                                <InfiniteSlider>
                                     <div className="flex items-center justify-center text-2xl font-serif text-[#152B69]/40 italic">Taj Hotels</div>
                                     <div className="flex items-center justify-center text-2xl font-serif text-[#152B69]/40 italic">ITC Grand</div>
                                     <div className="flex items-center justify-center text-2xl font-serif text-[#152B69]/40 italic">Leela Palace</div>
